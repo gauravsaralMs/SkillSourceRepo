@@ -24,12 +24,12 @@ We need to support unfurling of github urls in Teams channel.
 
 ## Decision
 
-Private/Public urls (Sign in) -	Allow unfurling of public urls and prompt user to sign in for unfurling private urls.
+Private/Public urls (Sign in) - Allow unfurling of public urls and prompt user to sign in for unfurling private urls.
 Non – GitHub domains - Teams GitHub app will support urls from GitHub domain only & other domains can be handled by Teams itself. 
 Caching - Teams has in-built caching which lasts for 30 minutes where they automatically unfurl the url without sending the request to the app. We will go ahead with this.
 Supporting 2 Urls - We will support unfurling of only 1 url as of now and will extend later based on telemetry.
 Supporting user prompts - We will not show user prompts as of now.
-Command remembering - We will support command remembering for all commands in Teams GitHub app in later phases.
+Command remembering - Command remembering is inherently present for url unfurling. Once the user signs in, the unfurled card is shown to the user.
 
 ## Consequences
 
