@@ -2,7 +2,7 @@
 
 When a user posts a GitHub url on the channel, we show an unfurled card to the user with the important information of the resource.
 
-## Flow:
+## Flow
 
 1. When a user posts github url in Teams channel, we get a request and we handle it in the function - handleTeamsAppBasedLinkQuery.
 2. We fetch the user information and the github client. We use user's auth token in the github client in case user is signed in, otherwise auth token is taken as empty string.
