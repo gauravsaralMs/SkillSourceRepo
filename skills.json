@@ -1,0 +1,10 @@
+[
+  {
+    "skill-name": "scoreCard",
+    "files": [
+      "serviceCatalog.ps1"
+    ],
+    "workflowyml": ".github/workflows/blank.yml",
+    "message": "Update your team name in *.ps1 and set your password to talk to catalog in xyz env variable"
+  }
+]
